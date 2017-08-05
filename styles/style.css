@@ -1,0 +1,149 @@
+body {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #292b2c;
+  background-color: #fff;
+}
+
+h3 {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 0px;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+span {
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.parent_box {
+  max-width: 650px;
+  /*background-color: whitesmoke;*/
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.featured {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: whitesmoke;
+}
+
+.featured .f-box {
+  /*display: flex;*/
+}
+
+.f-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 15px;
+}
+
+.f-item div:last-child {
+  -webkit-box-flex: 3;
+      -ms-flex: 3 0 0px;
+          flex: 3 0 0;
+  margin-left: 25px;
+}
+
+.f-item div:first-child {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 0px;
+          flex: 1 0 0;
+}
+
+.fluid {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+.body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.left {
+  -webkit-box-flex: 3;
+      -ms-flex: 3 0 0px;
+          flex: 3 0 0;
+  padding: 5px;
+  padding-left: 0px;
+}
+
+.right {
+  -webkit-box-flex: 2;
+      -ms-flex: 2 0 0px;
+          flex: 2 0 0;
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-right: 0px;
+}
+
+.body img {
+  width: 100%
+}
+
+.header {
+  width: 100%;
+  height: 100%;
+}
+
+.child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.text {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.text h2 {
+  margin-top: 0px;
+}
+
+footer {
+  background-color: #e42062;
+  padding: 15px;
+  color: white;
+}
+
+.icons img {
+  width: 145px;
+}
