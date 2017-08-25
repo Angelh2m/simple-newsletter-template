@@ -45,12 +45,14 @@ span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: inline-block;
-  padding: 15px;
+  padding: 3px;
 }
 
 @media (min-width: 600px){
   .f-item {
     display: flex;
+    padding: 15px;
+
 
   }
 
